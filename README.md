@@ -1,18 +1,18 @@
 # Publications
 
-Security vulnerability research, write-ups, and proof-of-concept exploits.
+Security vulnerability research, write-ups, and proof-of-concept code.
 
-## Status
+## Published Write-ups
 
-Nothing published yet. Multiple Windows kernel driver vulnerabilities are in various stages of responsible disclosure across several vendors. Write-ups and PoCs will be published here after patches are available and CVEs are assigned.
+- [CVE-2026-3508: Heap Over-Read in ASUS AsusWmiAcpi.sys](CVE-2026-3508/README.md)
 
 ## Methodology
 
-Vulnerabilities were discovered through manual reverse engineering with Ghidra, assisted by AI-powered code analysis (Claude Code + GhidraMCP). Initial target selection was informed by automated heuristic triage, but all vulnerability discovery and confirmation was done through hands-on reversing.
+Vulnerabilities were discovered through manual reverse engineering with Ghidra, assisted by AI-powered code analysis. Initial target selection was informed by automated heuristic triage, but vulnerability discovery and confirmation were done through hands-on reversing and targeted PoC development.
 
 ## Responsible Disclosure
 
-All vulnerabilities are reported to vendors through their PSIRT programs before public disclosure. Write-ups are published only after patches are available.
+Vulnerabilities are reported to vendors through their PSIRT programs before public disclosure. Write-ups and PoCs are published after patches are available or CVEs are public.
 
 ## Author
 
