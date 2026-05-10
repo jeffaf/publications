@@ -5,6 +5,7 @@ Security vulnerability research, write-ups, and proof-of-concept code.
 ## Published Write-ups
 
 - [CVE-2026-3508: Heap Over-Read in ASUS AsusWmiAcpi.sys](CVE-2026-3508/README.md)
+- [CVE-2026-6737: Insecure Device Object Permissions in AsusPTPFilter.sys](CVE-2026-6737/README.md)
 
 ## Methodology
 
